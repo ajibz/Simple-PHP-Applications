@@ -1,0 +1,29 @@
+body{
+	color: white;
+	background-color: cadetblue;
+	}
+
+#header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+nav li{
+	display: inline;
+	margin-right: 10px;
+	font-size: 13px;
+}
+nav span{
+	transform: rotateY(45deg);
+}
+#maincontainer{
+display: flex;
+justify-content: space-evenly;
+}
+main{
+	width: 800px;
+	margin-top: 130px;
+}
+

@@ -1,0 +1,9 @@
+.Todo_Add_Item{
+	transform: translateY(-1000px);
+	transition: all 1s;
+}
+.addShow{
+	transform: translateY(10px);
+	transition: all 1s;
+}
+

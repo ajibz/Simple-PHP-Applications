@@ -1,0 +1,17 @@
+button{
+	width: 85px;
+	height: 35px;
+	background-color: cadetblue;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	cursor: pointer;
+	box-shadow: 3px 7px 10px skyblue;
+}
+button:hover{
+	background-color: darkorange;
+	width: 95px;
+	height: 40px;
+}

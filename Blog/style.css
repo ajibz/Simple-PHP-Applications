@@ -1,0 +1,97 @@
+.mainbody{
+
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+.UserContainer{
+
+	margin-top: 100px;
+	background-color: cadetblue;
+	width: 400px;
+	height: 220px;
+	padding-top: 0px;
+	border-radius: 10px;
+}
+
+.UserContainer input{
+	width: 260px;
+	height: 25px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+.UserContainer #submit_btn{
+	width: 250px;
+	height: 30px;
+	cursor: pointer;
+	border-radius: 6px;
+	box-shadow: 5px 10px 10px greenyellow;
+	background-color: green;
+	margin-left: 50px;
+}
+
+.postContainer{
+	margin-top: 100px;
+	background-color: cadetblue;
+	width: 500px;
+	height: 350px;
+	padding-bottom: 20px;
+}
+
+.postContainer input,select{
+	
+	width: 300px;
+	height: 25px;
+	margin-top: 7px;
+}
+#send_post{
+	color: white;
+	cursor: pointer;
+	
+}
+
+.postContainer textarea{
+	width: 300px;
+	height: 130px;
+	margin-top: 7px;
+}
+#send_post{
+	width: 300px;
+	height: 30px;
+	margin-top: 7px;
+	background-color: blue;
+	border-radius: 7px;
+
+}
+
+.middlecontainer{
+ background-color: cadetblue;
+ padding-left: 40px;
+ padding-right: 40px;
+ padding-bottom: 50px;
+ margin-top: 80px;
+
+}
+
+.middlecontainer #middle_post{
+ background-color: whitesmoke;
+padding-left: 20px;
+ padding-right: 20px;
+ margin-top: 50px;
+ width: 700px;
+
+}
+#post_user{
+	margin-top: 30px;
+	font-style: italic;
+	color: green;
+}
+.middlecontainer h1{
+ margin-top: -15px;
+ font-weight: bolder;
+ color: blue;
+
+
+}

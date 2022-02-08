@@ -1,0 +1,48 @@
+
+#main{
+	margin-top: 100px;
+	width: 500px;
+	background-color: cadetblue;
+	padding: 70px 40px 10px 40px;
+	border-radius: 10px;
+	box-shadow: 7px 10px 25px darkcyan;
+
+}
+#main input{
+	width: 300px;
+	height: 35px;
+	margin-left: 15px;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+
+}
+#main label{
+	font-size: 22px;
+	font-weight: bolder;
+	
+
+}
+h3{
+	color: white;
+	font-style: italic;
+	 background-color: red;
+	 border-radius: 5px;
+	 padding: 0px 20px 0px 20px;
+	 transform: translateX(1000px);
+	 /*transition: 2s;*/
+
+
+}
+button{
+	width: 400px;
+	height: 40px;
+	border-radius: 7px;
+	border: none;
+	background-color: orange;
+	color: whitesmoke;
+	font-weight: bolder;
+	font-size: 20px;
+	cursor: pointer;
+}

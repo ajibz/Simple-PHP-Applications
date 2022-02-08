@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+}
+
+.userContainer {
+    width: 550px;
+    margin-top: 100px;
+}
+
+.userContainer fieldset input {
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px green;
+}
+
+.userContainer fieldset select {
+    width: 350px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px green;
+}
+
+.userContainer fieldset {
+    color: darkgreen;
+}
+
+#userButton {
+    background-color: cadetblue;
+    box-shadow: 7px 7px 20px cadetblue;
+    margin-left: 100px;
+    height: 45px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/*Top Navigation*/
+
+.topNav nav {
+    background-color: seagreen;
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.topNav nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-left: 40px;
+}
+
+.topNav ul {
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+}
+
+.topNav li {
+    list-style: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/*chats*/
+
+#chatContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(10, 26, 36);
+}
+
+.chatDisplay {
+    padding-top: 30px;
+    width: auto;
+    height: auto;
+    color: white;
+}
+
+#userchat {
+    background-color: cadetblue;
+    margin-left: -190px;
+    width: 150px;
+}
+
+.new {
+    background-color: red;
+}
+
+.innerchat {
+    margin-top: 10px;
+}
+
+#messages {
+    text-align: left;
+}
+
+#nonuserchat {
+    background-color: red;
+    float: right;
+    /*margin-left: 270px;*/
+}
+
+#chatMessage {
+    background-color: rgb(106, 158, 134);
+    padding-top: 30px;
+    width: 500px;
+    height: 200px;
+}
+
+#chatMessage input {
+    width: 300px;
+    height: 30px;
+    background-color: cadetblue;
+    border-radius: 7px;
+    color: white;
+    border: 1px solid blue;
+}
+
+
+/*Side Navigation*/
+
+.sidenav nav {
+    background-color: seagreen;
+    width: 200px;
+    height: 100vh;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+#img li img {
+    /*display:none;*/
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+#img {
+    display: none;
+}
+
+#nonimg {
+    display: block;
+    color: white;
+}
+
+#nonimg li {
+    list-style: none;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: cadetblue;
+    opacity: 0.7;
+    box-shadow: 5px 5px 10px blue;
+}
+
+
+/*Media Query codes*/
+
+@media screen and (max-width: 700px) {
+    /*Side Navigation*/
+    .sidenav nav {
+        background-color: seagreen;
+        width: 50px;
+        height: 100vh;
+        padding-top: 30px;
+        padding-right: 10px;
+    }
+    #img {
+        display: block;
+    }
+    #img li {
+        list-style: none;
+        border-radius: 100px;
+        width: 150px;
+        margin-top: 15px;
+        margin-left: -45px;
+    }
+    #nonimg {
+        display: none;
+        color: white;
+    }
+    #nonimg li {
+        list-style: none;
+        border-radius: 5px;
+        width: 150px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 18px;
+        background-color: cadetblue;
+        opacity: 0.7;
+        box-shadow: 5px 5px 10px blue;
+    }
+    /*Top Navigation*/
+    .topNav li,
+    h2 {
+        font-size: 20px;
+    }
+    #logo h2 {
+        margin-left: -35px;
+    }
+}
